@@ -22,32 +22,30 @@ h1,h2,h3,h4,h5,h6 {
 	text-rendering: optimizeLegibility;
 	font-weight: bold;
 }
-
 h1 {
 	font-size:3em;
 }
-
 h1,h2 {
 	margin: 0 0 40px;
 }
-
 h3 {
 	margin:20px 0;
 }
  h4 {
  	font-size: 1.1em;
 }
-
 .btn {
 	font-weight: bold;
 }
-
 .btn-danger {
 	background-color: #dd5638;
 	border-collapse: #d95131;
 }
 a {
 	color:white;
+}
+img {
+	max-width: 100%;
 }
 
 
@@ -61,20 +59,16 @@ a {
 	-webkit-font-smoothing:antialiased;
 	text-rendering: optimizeLegibility;
 }
-
 #hero article {
 	text-align: center;
 }
-
 #hero .hero-text {
 	margin-top:30px;
 }
-
 #price-timeline {
 	margin: 30px 0 60px;
 	text-align: center;
 }
-
 #price-timeline .price {
 	display:inline-block;
 	margin: 0 2% 0 0;
@@ -84,7 +78,6 @@ a {
 	position: relative;
 	vertical-align: top;
 }
-
 #price-timeline .price.active {
 	background:#dd5638; 
 }
@@ -105,13 +98,63 @@ a {
 	left: 50%;
 	margin-left: -35px;
 }
-
 #price-timeline h4 {
 	margin: 0 0 10px;
 }
-
 #price-timeline h4 small {
 	color:white;
 	font-weight: bold;
 	display:block;
 }
+
+/*LAYOUT*/
+
+section {
+	padding: 80px 0;
+}
+
+.section-header {
+	text-align: center;
+}
+section h2 {
+	margin: 20px 0 40px;
+}
+
+section h3 {
+	margin: 30px 0 10px;
+}
+
+#optin {
+	background: #3e4249;
+	color: #fff;
+	padding: 20px 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-size: 1.2em;
+}
+
+#optin p {
+	margin: 7px 0 0 0;
+}
+#who-benefits {
+	background: #fff;
+}
+#course-features {
+	background: #3e4249;
+	color: #fff;
+	text-align: center;
+}
+
+/* SPRITE ICONS */
+
+i.ci {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url('img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer { background-position: 0 0; }  
+.ci.ci-watch { background-position: -40px 0; }
+.ci.ci-calendar {background-position: ;}
+.ci.ci

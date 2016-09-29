@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=raleway' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
 		<link rel="icon" href="img/favicon.ico">
 
 
@@ -97,134 +96,139 @@
 <!--OPT IN SECTION
 =============================================-->
 
-<section>
+<section id="optin">
 	
 	<div class="container">
-		<p>Ctrl+C	copy current line (if no selection)
-Ctrl+X	cut current line (if no selection)
-Ctrl+⇧+K	delete line
-Ctrl+↩	insert line after
-Ctrl+⇧+↩	insert line before
-Ctrl+⇧+↑	move line (or selection) up
-Ctrl+L	select line (repeat to select next lines)
-Ctrl+D	select word (repeat select others occurrences in context for multiple editing)
-Ctrl+M	jump to closing bracket for current code, repeat to jump to opening bracket
-Ctrl+⇧+M	select all contents of the current brackets (curly brackets, square brackets, parentheses)
-Ctrl+KK	delete from cursor to end of line
-Ctrl+K+⌫	delete from cursor to start of line
-Ctrl+]	indent current line(s)
-Ctrl+[	un-indent current line(s)
-Ctrl+⇧+D	duplicate line(s)
-Ctrl+J	join line below to the end of the current line
-Ctrl+ /	comment/un-comment current line
-Ctrl+⇧+/	block comment current selection
-Ctrl+Y	redo, or repeat last keyboard shortcut command
-Ctrl+⇧+V	paste and indent correctly
-Ctrl+Space	select next auto-complete suggestion
-Ctrl+U	soft undo (somehow undoes your movements; it jumps to your last change before undoing it when you repeat this command)
-Navigation/Goto Anywhere
-
-Ctrl+P	quick-open files by name in your project (doesn’t seem to need an actual project set up, it just searches in the directories around the currently-opened file
-Ctrl+R	goto symbol (functions and classes) in the file. Same as Ctrl+P, then type @
-Ctrl+;	goto word in current file. Same as Ctrl+P, then type #
-Ctrl+G	goto line in current file. Same as Ctrl+P, then type :
-General
-
-Ctrl+⇧+P	command prompt
-Ctrl+KB	toggle side bar
-Find/Replace
-
-Ctrl+F	find
-Ctrl+H	replace
-Ctrl+⇧+F	find in files
-Tabs
-
-Ctrl+⇧+t	open last closed tab (just like in your browser)
-Ctrl+PgDn	cycle down through open tabs, cycle up with Ctrl+PgUp
-Ctrl+⇆	cycle through last tabs (repeat to go back further in history)
-Split window
-
-Alt+⇧+2	split into two columns
-Alt+⇧+1	revert to single column
-Alt+⇧+5	grid (4 groups)
-Ctrl+[1,2,3,4]	jump to “group” (pane)
-Ctrl+⇧+[1,2,3,4]	move file to specified group
-Bookmarks
-
-Ctrl+F2	toggle bookmark
-F2	next bookmark
-⇧+F2	previous bookmark
-Ctrl+⇧+F2	clear bookmarks
-Text manipulation
-
-Ctrl+KU	upper case
-Ctrl+KL	lower case
- @Leimi
-Leimi commented on Feb 22, 2012
-Ctrl+C, Ctrl+X and Ctrl+V let you copy/cut/paste lines if you don't select anything. So, Ctrl+X doesn't "delete" a line, it cuts it. To delete a line, the default shortcut is Ctrl+Shift+K :)
-@losvedir
-losvedir commented on Feb 22, 2012
-Highlighting a bunch of lines then hitting Cmd (Ctrl?) +Shift+L gives you multi-cursors on each line. I do that, followed by Cmd + Right arrow (End?) to get easily get a cursor at the end of a series of lines to simultaneously type something after each.
-@eteanga
-Owner
-eteanga commented on Feb 23, 2012
-@Leimi I was only slowly beginning to understand that. I've updated the reference for Ctrl+C and Ctrl+X.
-@eteanga
-Owner
-eteanga commented on Feb 23, 2012
-@losvedir I've figured out that it's Ctrl+L repeated, followed by Ctrl+⇧+L, then finally → to get to the end. Now you have the cursor at the end of multiple lines. Thanks for sharing!
-@hkdobrev
-hkdobrev commented on Mar 14, 2012
-Ctrl+Shift+J expand the selection to the indentation level of the current line. So if you want to select a block of code with the same indentation it's really useful.
-@paulirish
-paulirish commented on Jun 13, 2012
-A few written about in more detail: http://whiletruecode.com/post/7-handy-text-manipulation-tricks-sublime-text-2
-
-Feels like someone should make a cheatsheet for these. It'd be interesting to explore a visual layout like ted naleid's vim movements
-@shabith
-shabith commented on Oct 14, 2012
-Alt + F3 select all occurrences of current word for multiple editing. Very useful.
-@rameshsrinivasan
-rameshsrinivasan commented on Dec 6, 2012
-Useful information...
-thank you... :)
-@lety4ent
-lety4ent commented on Feb 7, 2013
-Very useful information, however ... could you modify the commands in order to be more specific about if it's a Ctrl or Cmd key ? Well, that could be great for iOS users.
-
-Cool !
-@passion8
-passion8 commented on Mar 17, 2013
-Thanks . 
-Very useful .<p>
-	</div>
+	
+	<div class="row">
+		<div class="col-sm-8">
+			<p class="lead"><strong>Subscribe to our mailing list.</strong> We'll send something special to thank you.</p>
+		</div><!--col-->
+		<div class="col-sm-4">
+			<button class="btn btn-lg btn-success btn-block" data-toggle="modal" data-target="#myModal">
+				Click here to subscribe
+			</button>
+		</div><!--col-->
+	</div><!--row-->
 
 </section>
 
 <!--BOOST YOUR INCOME
 =============================================-->
 
-<section>
-	
+<section id="boost-income">
+	<div class="container">
+		
+		<div class="section-header">
+			<img src="img/icon-boost.png" alt="Chart">
+			<h2>How You Can Boost Your Income</h2>
+		</div><!--header-->
+		<p class="lead">Whether you’re a freelance designer, entrepreneur, employee for a company, code hobbyist, or looking for a new career — this course gives you an immensely valuable skill that will enable you to either:	
+		</p>
+		<div class="row">
+			<div class="col-sm-6">
+				<h3>Make Money on The Side</h3>
+				<p>So you can save up for that Hawaiian vacation you’ve been wanting, help pay off your debt, your car, your mortgage, or simply just to have bonus cash laying around.</p>
+			</div><!--col-->
+			<div class="col-sm-6">
+			<h3>Create a Full-Time Income</h3>
+			<p>WordPress developers have options. Many developers make a generous living off of creating custom WordPress themes and selling them on websites like ThemeForest. Freelance designers and developers can also take on WordPress projects and make an extra $1,000 - $5,000+ per month.</p>				
+			</div><!--col-->
+		</div><!--row-->
+
+	</div><!--container-->
 
 </section>
 
 <!--WHO BENEFITS
 =============================================-->
 
-<section>
-	
+<section id="who-benefits">
+	<div class="container">
 
-</section>
+	<div class="section-header">
+		<img src="img/icon-pad.png" alt="Pad and pencil">
+		<h2>Who Should Take This Course?</h2>
+	</div><!--header-->
+
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h3>Graphic &amp; Web Designers</h3>
+			<p>Graphic designers are extremely talented, but ask them to code their designs and they’ll freeze up! This leaves them with no other choice but to hire a web developer. Any professional graphic designers knows web developers can be expensive.<br>
+			If you’re a designer, learning to code your own WordPress websites can change your business entirely! Now, not only are you a great designer, but you’re a skillful developer, too! This puts you in a position to <strong>make an extra $1,000 – $5,000 per project.</strong></p>		
+		</div><!--col-->
+
+		<div class="col-sm-8 col-sm-offset-2">
+			<h3>Entrepreneurs</h3>
+			<p>Entrepreneurs have big dreams, and in many cases, shoestring budgets. In order to survive in the cut-throat world of the Startup company, it’s a necessity to have a world-class website. However, world-class websites come with a large price tag.<br>If you can learn how to build a high-quality startup website by yourself, then you’ve just saved yourself a lot of cash, <strong>tens of thousands of dollars in many cases.</strong></p>		
+		</div><!--col-->
+
+		<div class="col-sm-8 col-sm-offset-2">
+			<h3>Employees</h3>
+			<p>Any company knows the education &amp; training of their employees is key to a thriving team.<br>Depending on the type of company you work for, if you understand how to code, and can develop CMS driven websites, that gives you <strong>negotiating power for a better position, or a higher salary..</strong></p>		
+		</div><!--col-->
+
+		<div class="col-sm-8 col-sm-offset-2">
+			<h3>Code Hobbyists</h3>
+			<p>It’s fun to learn challenging new skills. Code hobbyists can add dynamic websites to their arsenal of tools to play with — you can even <strong>sell WordPress themes and plugins for cash!</strong> The possibilities are truly endless.</p>		
+		</div><!--col-->
+
+		<div class="col-sm-8 col-sm-offset-2">
+			<h3>People Looking for a New Career</h3>
+			<p>Are you out of work? Looking for a more rewarding job? Desire a career that can allow you to work almost anywhere in the world? Becoming a Web Developer might be the answer for you.<br><strong>Web developers are paid well, anywhere from $33,000 to more than $105,000 per year.</strong> They get to work at amazing companies that are changing the world, or they enjoy the ability to start their own companies, become location-independent and work from home, from coffee shops, in an airplane, on the beach, or wherever they want.</p>		
+		</div><!--col-->
+	</div><!--row-->
+
+</section><!--who-benefits-->
 
 
 <!--COURSE FEATURES
 =============================================-->
 
-<section>
-	
+<section id="course-features">
+	<div class="container">
+		
+		<div class="section-header">
+			<img src="img/icon-rocket.png" alt="Rocket">
+			<h2>Course Features</h2>
+		</div><!--header-->
+		<div class="row">
 
-</section>
+			<div class="col-sm-2">
+				<i class="ci ci-computer"></i>
+				<h4>Lifetime access to 80+ lectures</h4>
+			</div><!--col-->
+
+			<div class="col-sm-2">
+				<i class="ci ci-watch"></i>
+				<h4>10+ hours of HD video content</h4>
+			</div><!--col-->
+
+			<div class="col-sm-2">
+				<i class="ci ci-calendar"></i>
+				<h4>30-day money back guarantee</h4>
+			</div><!--col-->
+
+			<div class="col-sm-2">
+				<i class="ci ci-community"></i>
+				<h4>Access to a community of like-minded students</h4>
+			</div><!--col-->
+
+			<div class="col-sm-2">
+				<i class="ci ci-instructor"></i>
+				<h4>Direct access to the instructor</h4>
+			</div><!--col-->
+
+			<div class="col-sm-2">
+				<i class="ci ci-device"></i>
+				<h4>Accessible content on your mobile devices</h4>
+			</div><!--col-->
+
+		</div><!--row-->
+
+	</div><!--container-->
+
+</section><!--features-->
 
 <!--PROJECT FEATURES
 =============================================-->
@@ -278,11 +282,37 @@ Very useful .<p>
 
 <!--MODAL
 ==============================================-->
-<div>
+<div class="modal fade" id="myModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Subscribe to our Mailing List</h4>
+			</div><!--header-->
+			<div class="modal-body">
+				<p>Simply enter your name and email and as a thank you for joining us, we're going to give you one of our best-selling courses<em> for free!</em></p>	
+
+				<form class="form-inline" role="form">
+					<div class="form-group">
+						<label class="sr-only" for="subscribe-name">Your Name</label>
+						<input type="text" class="form-control" id="subscribe-name" placeholder="Your name">
+					</div><!--form-group-->
+					<div class="form-group">
+						<label class="sr-only" for="subscribe-email">Your Name</label>
+						<input type="text" class="form-control" id="subscribe-email" placeholder="Your email">
+					</div><!--form-group-->
+					<input type="submit" class="btn btn-danger" value="subscribe">
+				</form>
+
+					<hr>
+					<p><small>By providing your email you consent to recieving occassional promotional emails &amp; newsletters. No spam. Just good stuff. We respect your privacy &amp; you may unsubscribe at any time.</small></p>
+
+			</div><!--body-->
+		</div><!--content-->
+
+	</div><!--dialog-->
 	
 </div>
-
-
 
 	<!-- CDN jQuery-->
   	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
