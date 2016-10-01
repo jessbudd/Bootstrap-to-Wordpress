@@ -63,9 +63,9 @@ button .btn-success:focus {
 	background: #6a9b3d;
 	border-color: #6a9b3d;
 }
-a:link, a:visited {
+/*a:link, a:visited {
 	color: #dd5638;
-}
+}*/
 a:hover {
 	text-decoration: none;
 	color: #c9302c;
@@ -176,11 +176,12 @@ blockquote::before {
 .row + .row {
 	margin-top: 20px;
 }
-
 section {
 	padding: 80px 0;
 }
-
+.main-content {
+	padding: 40px;
+}
 .section-header {
 	text-align: center;
 }
@@ -201,7 +202,7 @@ section h3 {
 	background: url("../img/stuff-feature.jpg") no-repeat;
 	background-size: cover;
 }
-.feature-image-default-alt {
+.feature-ima>ge-default-alt {
 	background: url("../img/hipster-stuff.jpg") no-repeat;
 	background-size: cover;
 }
@@ -388,6 +389,7 @@ footer li.signup-link a:hover {
 }
 
 /* COMMENTS */
+
 .post-comments-badge {
 	height: 70px;
 	width: 70px;
@@ -444,7 +446,15 @@ footer li.signup-link a:hover {
 	padding: 20px 0 0;
 }
 
-
+/* RESOURCES */
+.resource {
+	width: 31.33333333%;
+	float: left;
+	margin: 0 3% 40px 0;
+}
+.resource:nth-child(3n) {
+	margin-right: 0;
+}
 
 /* SPRITE ICONS */
 
@@ -487,7 +497,30 @@ textarea {
 	width: 100%
 	padding: 6px 12px;
 }
-
+input[type="submit"],
+button[type="submit"] {
+	display: block;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.33;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	border: none;
+	border-radius: 6px
+}
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+	outline:none;
+	border: none;
+	background: #aaa;
+}
 
 
 /*MEDIA QUERIES */
@@ -507,6 +540,11 @@ textarea {
 	#featurette iframe {
 		height: 240px;
 	}
+	.resource {
+		width: 48%;
+		margin-right: 2%;
+		min-height: 800px;
+	}
 }
 @media screen and (max-width: 568px) {
 	#instructor .num {
@@ -514,5 +552,9 @@ textarea {
 		width: 100px;
 		font-size: 22px;
 	}
-
+	.resource {
+		width: 100%;
+		margin-right: 0;
+		min-height: 0;
+	}
 }
